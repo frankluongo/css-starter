@@ -1,0 +1,7 @@
+.cache
+.DS_Store
+dist
+index.css
+index.js
+main.css
+node_modules
