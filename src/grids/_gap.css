@@ -1,0 +1,11 @@
+.gap {
+  gap: 1rem;
+}
+
+.gap\:tight {
+  gap: 0.5rem;
+}
+
+.gap\:wide {
+  gap: 2rem;
+}

@@ -1,0 +1,11 @@
+.margin-block\:section {
+  --margin-block: 3rem;
+
+  margin-block: var(--margin-block);
+}
+
+@media (min-width: 1000px) {
+  .margin-block\:section {
+    --margin-block: 6rem;
+  }
+}

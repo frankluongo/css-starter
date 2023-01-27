@@ -1,10 +1,11 @@
 {
-  "name": "css-starter",
+  "name": "@frankluongo/css-starter",
   "version": "1.0.0",
-  "description": "## What's in here?",
-  "main": "app.css",
+  "description": "CSS Starter",
+  "main": "index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "esbuild --bundle src/app.css --outfile=dist/app.css --watch",
+    "build": "esbuild --bundle src/app.css --outfile=dist/app.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/frankluongo/css-starter/issues"
   },
-  "homepage": "https://github.com/frankluongo/css-starter#readme"
+  "homepage": "https://github.com/frankluongo/css-starter#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.4"
+  }
 }

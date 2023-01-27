@@ -1,0 +1,11 @@
+.padding-block\:section {
+  --padding-block: 3rem;
+
+  padding-block: var(--padding-block);
+}
+
+@media (min-width: 1000px) {
+  .padding-block\:section {
+    --padding-block: 6rem;
+  }
+}
