@@ -1,11 +1,13 @@
 {
   "name": "@frankluongo/css-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CSS Starter",
   "main": "index.css",
   "scripts": {
-    "dev": "esbuild --bundle src/app.css --outfile=dist/app.css --watch",
-    "build": "esbuild --bundle src/app.css --outfile=dist/app.css"
+    "deploy": "npm publish",
+    "deploy:dry": "npm publish --dry-run",
+    "dev": "esbuild --bundle src/app.css --outfile=index.css --watch",
+    "build": "esbuild --bundle src/app.css --outfile=index.css"
   },
   "repository": {
     "type": "git",
